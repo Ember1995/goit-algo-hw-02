@@ -28,4 +28,3 @@ while True:
     if exit_command.lower() == 'exit':
         print("Finished.")
         break
-

@@ -3,6 +3,7 @@ from collections import deque
 def define_palindrome():
     d = deque()
     user_input = input("Print your text here -> ").lower().replace(" ", "")
+    
     for char in user_input:
         if char.isalnum():
             d.append(char)
